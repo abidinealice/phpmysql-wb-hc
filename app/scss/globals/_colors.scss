@@ -1,0 +1,60 @@
+body {
+  --bgbody-color: hsl(0, 0%, 100%);
+  --text-color: hsl(0, 100%, 50%);
+}
+
+header {
+  --bghead-color: hsl(0, 62%, 29%);
+  --text-color: hsl(0, 0%, 100%);
+}
+
+.logo {
+  --text-color: hsl(0, 0%, 100%);
+}
+
+main {
+  --text-color: hsl(0, 0%, 0%);
+}
+
+.bar {
+  --bgbar: hsl(0, 0%, 100%);
+}
+
+bottom {
+  --bgbottom: hsl(0, 62%, 29%);
+}
+
+button {
+  --textbutton-color: hsl(0, 0%, 100%);
+  --bgbutton-color: transparent;
+}
+
+span {
+  --bgspan-color: hsl(0, 62%, 29%);
+}
+
+h1,
+h2,
+h3 {
+  --text-color: hsl(0, 0%, 100%);
+}
+
+p {
+  --text-color: hsl(0, 0%, 100%);
+}
+
+.magazine__h1 {
+  --text-color: hsl(0, 0%, 0%);
+}
+
+.magazine__p {
+  --text-color: hsl(0, 0%, 0%);
+}
+
+.magazine__button {
+  --bgmbutton: hsl(0, 62%, 29%);
+}
+
+a:visited {
+  --text-color: hsl(0, 0%, 100%);
+}

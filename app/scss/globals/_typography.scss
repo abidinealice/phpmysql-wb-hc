@@ -1,0 +1,149 @@
+@use "../util" as u;
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--text-color);
+}
+
+h1 {
+  margin: 0 15px 15px 15px;
+  font-size: 75px;
+  color: var(--text-color);
+
+  @include u.breakpoints(medium) {
+    font-size: 90px;
+  }
+
+  @include u.breakpoints(large) {
+    font-size: 100px;
+  }
+}
+
+p {
+  font-weight: 400;
+  color: var(--text-color);
+  margin: 10px 0;
+  font-size: 23px;
+
+  @include u.breakpoints(medium) {
+    font-size: 25px;
+  }
+
+  @include u.breakpoints(large) {
+    font-size: 28px;
+  }
+}
+
+.magazine__h1 {
+  font-size: 50px;
+  color: var(--text-color);
+
+  @include u.breakpoints(medium) {
+    font-size: 60px;
+  }
+
+  @include u.breakpoints(large) {
+    font-size: 70px;
+  }
+}
+
+.magazine__p {
+  color: var(--text-color);
+}
+
+.contacts__h3 {
+  font-size: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+  @include u.breakpoints(medium) {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  @include u.breakpoints(large) {
+    font-size: 40px;
+  }
+}
+
+.traitement__msg {
+  font-size: 25px;
+  margin-left: 8%;
+  margin-right: 8%;
+
+  @include u.breakpoints(medium) {
+    font-size: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  @include u.breakpoints(large) {
+    font-size: 35px;
+  }
+}
+
+.traitement__retour {
+  font-size: 30px;
+  margin-top: 30px;
+
+  @include u.breakpoints(medium) {
+    font-size: 30px;
+  }
+
+  @include u.breakpoints(large) {
+    font-size: 35px;
+  }
+}
+
+.traitement__retour:hover {
+  transition: all 0.3s ease-in-out;
+  transform: scale(0.8);
+}
+
+.traitement__retouracc {
+  font-size: 28px;
+  margin-top: 30px;
+
+  @include u.breakpoints(medium) {
+    font-size: 30px;
+  }
+
+  @include u.breakpoints(large) {
+    font-size: 32px;
+  }
+}
+
+.traitement__retouracc:hover {
+  transition: all 0.3s ease-in-out;
+  transform: scale(0.8);
+}
+
+.recettes__h2 {
+  color: black;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+.recettes__h3 {
+  color: black;
+  font-size: 20px;
+}
+
+.recettes__ul {
+  padding: 0;
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+ul {
+  list-style: none;
+}
